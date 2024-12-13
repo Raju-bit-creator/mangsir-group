@@ -1,3 +1,23 @@
-h4{
-    color: rgb(255, 0, 136);
+.paragraph{
+    display: flex;
+    justify-content: space-between;
+}
+.paragraph span {
+    color: aqua;
+}
+.paragraph img{
+    height: 80px;
+    width: 100px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+.card-section{
+    background: #000;
+    padding: 80px 0px;
 }
