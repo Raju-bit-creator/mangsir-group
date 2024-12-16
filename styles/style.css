@@ -15,9 +15,35 @@
     gap: 20px;
     align-items: center;
     margin-top: 15px;
+    font-family: 'Poppins';
     
 }
 .card-section{
     background: #fff;
     padding: 80px 0px;
 }
+.first-title{
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: black;
+}
+.description{
+    font-family: 'Poppins';
+}
+thead{
+    background:#e7e1e1;
+}
+tr, th, td{
+    padding: 5px;
+    border: 1px solid #000 !important;
+}
+.table{
+    width: 100%;
+}
+.card:hover{
+    background: #000;
+    color: #fff;
+}
+/* assignment  */
+/* explore css property position and z-index */ 
+/* keyframe */
