@@ -62,6 +62,17 @@ helloWorld();
 const showAlert = (type, message) => {
   console.log(`${type}: ${message}`);
 };
-showAlert("success", "login successfull");
 
-let names = ["santosh", "jasmine", "ganga", "mandeep", "bhuwan"];
+let users = [" santosh", "ram", "jasmine", "ganga", "mandeep", "bhuwan"];
+
+const signUp = (name) => {
+  const registerUser = users.find((c) => c.trim() === name.trim());
+  if (registerUser) {
+    console.log("register user", registerUser);
+    showAlert("success", "login successfull");
+  } else {
+    console.log("user not register", "sorry");
+    showAlert("Warning", "invalid credential");
+  }
+};
+signUp("  santosh");
