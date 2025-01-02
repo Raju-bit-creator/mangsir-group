@@ -23,3 +23,4 @@ students.forEach((student) => {
     console.log(`not paid ${student.name} and cannot give exam `);
   }
 });
+//hello world
