@@ -59,3 +59,4 @@ let fruits = [
 fruits[1].prices.map((e) => {
   console.log(`${e.country} price of apple ${e.price}`);
 });
+///
